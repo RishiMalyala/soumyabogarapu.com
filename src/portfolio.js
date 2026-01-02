@@ -23,7 +23,7 @@ const greeting = {
   username: "Soumya Bogarapu",
   title: "Hi all, I'm Soumya",
   subTitle: emoji(
-    "A global transformation leader."
+    "A global transformation leader in Networking and datacentres."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
