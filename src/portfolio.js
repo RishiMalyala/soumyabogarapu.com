@@ -33,7 +33,7 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  linkedin: "linkedin.com/in/soumya-bogarapu-1796919a",
+  linkedin: "https://www.linkedin.com/in/soumya-bogarapu-1796919a",
   facebook: "https://www.facebook.com/soumya.bogarapu",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
