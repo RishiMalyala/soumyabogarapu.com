@@ -44,14 +44,23 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Senior Network Architect with extensive experience leading global-scale network modernization programs for telecom operators and multinational enterprises. Specializes in designing secure, scalable, and high-availability network architectures across data centers, cloud, and hybrid environments. Proven track record in directing network transformation initiatives, SDWAN strategy, and service delivery operations supporting mission-critical communication infrastructures across multiple regions. Recognized for driving operational excellence, building high-performing teams, and enabling secure digital connectivity at national and enterprise scale.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Networking Architecture & Protocols: BGP, OSPF, MPLS, VXLAN, IPSec, QoS, Traffic Engineering across global WAN backbones"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ SD-WAN & Data Center: Versa SD-WAN Strategy & Deployment (200+ Sites), Cisco ACI Spine-Leaf Fabric, Hybrid On-Prem/Cloud Connectivity"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Hardware & Infrastructure Systems: Cisco Catalyst 9300/3850, Nexus 5K/7K/9K, ISR 4K, High-Availability DC Network Design & Lifecycle Governance"
+    ),
+    emoji(
+      "⚡ Application Delivery & Security: F5 LTM/GTM, Cisco ISE, DNAC, Zero-Trust Access Policies, Enterprise Secure VPN & Remote Access Architecture"
+    ),
+    emoji(
+      "⚡ Network Operations & Tooling: Zabbix, NIMSOFT, SolarWinds, Infoblox DDI, Riverbed WAN Optimization, SLA/Latency/Performance Analytics"
+    ),
+    emoji(
+      "⚡ Leadership & Delivery: Global Team Leadership (30+ Engineers and Managers), Cross-Functional Program Delivery, Cost & Capacity Optimization, L3 Escalation Authority"
     )
   ],
 
