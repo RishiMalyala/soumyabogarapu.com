@@ -68,17 +68,16 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
     softwareSkills: [
-        { skillName: "Cisco", icon: require("/icons/cisco.svg") },
-        { skillName: "Cisco ACI", icon: require("/icons/cisco-aci.svg") },
-        { skillName: "Versa SD-WAN", icon: require("/icons/versa.svg") },
-        { skillName: "F5 (LTM/GTM)", icon: require("/icons/f5.svg") },
-        { skillName: "Infoblox DDI", icon: require("/icons/infoblox.svg") },
-        { skillName: "Riverbed", icon: require("/icons/riverbed.svg") },
-        { skillName: "Zabbix", icon: require("/icons/zabbix.svg") },
-        { skillName: "SolarWinds", icon: require("/icons/solarwinds.svg") },
-        { skillName: "ITIL", icon: require("/icons/itil.svg") }
-      ],
-
+      { skillName: "Cisco", icon: "/icons/cisco.svg" },
+      { skillName: "Cisco ACI", icon: "/icons/cisco-aci.svg" },
+      { skillName: "Versa SD-WAN", icon: "/icons/versa.svg" },
+      { skillName: "F5 (LTM/GTM)", icon: "/icons/f5.svg" },
+      { skillName: "Infoblox DDI", icon: "/icons/infoblox.svg" },
+      { skillName: "Riverbed", icon: "/icons/riverbed.svg" },
+      { skillName: "Zabbix", icon: "/icons/zabbix.svg" },
+      { skillName: "SolarWinds", icon: "/icons/solarwinds.svg" },
+      { skillName: "ITIL", icon: "/icons/itil.svg" }
+    ],
       display: true
     };
 
