@@ -44,7 +44,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Senior Network Architect with extensive experience leading global-scale network modernization programs for telecom operators and multinational enterprises. Specializes in designing secure, scalable, and high-availability network architectures across data centers, cloud, and hybrid environments. Proven track record in directing network transformation initiatives, SDWAN strategy, and service delivery operations supporting mission-critical communication infrastructures across multiple regions. Recognized for driving operational excellence, building high-performing teams, and enabling secure digital connectivity at national and enterprise scale.",
+  subTitle: "I am a senior network architect with extensive experience leading global-scale network modernization programs for telecom operators and multinational enterprises. I sppecialize in designing secure, scalable, and high-availability network architectures across data centers, cloud, and hybrid environments with a proven track record in directing network transformation initiatives, SDWAN strategy, and service delivery operations supporting mission-critical communication infrastructures across multiple regions. Nationally recognized for driving operational excellence, building high-performing teams, and enabling secure digital connectivity at national and enterprise scale.",
   skills: [
     emoji(
       "⚡ Networking Architecture & Protocols: BGP, OSPF, MPLS, VXLAN, IPSec, QoS, Traffic Engineering across global WAN backbones"
@@ -84,30 +84,33 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Birla Institute of Technology and Science (BITS), Pilani",
+      logo: require("./assets/images/bitsPilaniLogo.png"),
+      subHeader: "Master of Science (M.Sc.) – Software Systems",
+      duration: "Pilani, India",
+      desc:
+        "Postgraduate program focused on software systems, enterprise computing, and applied systems engineering, complementing a strong foundation in telecommunications and network architecture.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Advanced studies in software systems and enterprise-scale computing",
+        "Applied learning supporting large-scale network transformation and service delivery roles"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Andhra University",
+      logo: require("./assets/images/andhraUniversityLogo.png"),
+      subHeader: "Bachelor of Engineering (B.E.) – Electronics & Communications Engineering",
+      duration: "Visakhapatnam, India",
+      desc:
+        "Undergraduate engineering degree in electronics and communications, forming the technical foundation for a career in telecommunications, data networks, and enterprise infrastructure.",
+      descBullets: [
+        "Core focus on communication systems, electronics, and network fundamentals"
+      ]
     }
   ]
 };
-
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
