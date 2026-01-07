@@ -68,15 +68,15 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
     softwareSkills: [
-        { skillName: "Cisco", icon: require("./assets/icons/cisco.svg") },
-        { skillName: "Cisco ACI", icon: require("./assets/icons/cisco-aci.svg") },
-        { skillName: "Versa SD-WAN", icon: require("./assets/icons/versa.svg") },
-        { skillName: "F5 (LTM/GTM)", icon: require("./assets/icons/f5.svg") },
-        { skillName: "Infoblox DDI", icon: require("./assets/icons/infoblox.svg") },
-        { skillName: "Riverbed", icon: require("./assets/icons/riverbed.svg") },
-        { skillName: "Zabbix", icon: require("./assets/icons/zabbix.svg") },
-        { skillName: "SolarWinds", icon: require("./assets/icons/solarwinds.svg") },
-        { skillName: "ITIL", icon: require("./assets/icons/itil.svg") }
+        { skillName: "Cisco", icon: require("/Users/rishi/Documents/Latex Templates/soumyabogarapu.com/src/assets/icons/cisco.svg") },
+        { skillName: "Cisco ACI", icon: require("/Users/rishi/Documents/Latex Templates/soumyabogarapu.com/src/assets/icons/cisco-aci.svg") },
+        { skillName: "Versa SD-WAN", icon: require("/Users/rishi/Documents/Latex Templates/soumyabogarapu.com/src/assets/icons/versa.svg") },
+        { skillName: "F5 (LTM/GTM)", icon: require("/Users/rishi/Documents/Latex Templates/soumyabogarapu.com/src/assets/icons/f5.svg") },
+        { skillName: "Infoblox DDI", icon: require("/Users/rishi/Documents/Latex Templates/soumyabogarapu.com/src/assets/icons/infoblox.svg") },
+        { skillName: "Riverbed", icon: require("/Users/rishi/Documents/Latex Templates/soumyabogarapu.com/src/assets/icons/riverbed.svg") },
+        { skillName: "Zabbix", icon: require("/Users/rishi/Documents/Latex Templates/soumyabogarapu.com/src/assets/icons/zabbix.svg") },
+        { skillName: "SolarWinds", icon: require("/Users/rishi/Documents/Latex Templates/soumyabogarapu.com/src/assets/icons/solarwinds.svg") },
+        { skillName: "ITIL", icon: require("/Users/rishi/Documents/Latex Templates/soumyabogarapu.com/src/assets/icons/itil.svg") }
       ],
 
       display: true
