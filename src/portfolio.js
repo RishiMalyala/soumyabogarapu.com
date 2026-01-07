@@ -67,62 +67,20 @@ const skillsSection = {
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
+    softwareSkills: [
+        { skillName: "Cisco", icon: require("./assets/icons/cisco.svg") },
+        { skillName: "Cisco ACI", icon: require("./assets/icons/cisco-aci.svg") },
+        { skillName: "Versa SD-WAN", icon: require("./assets/icons/versa.svg") },
+        { skillName: "F5 (LTM/GTM)", icon: require("./assets/icons/f5.svg") },
+        { skillName: "Infoblox DDI", icon: require("./assets/icons/infoblox.svg") },
+        { skillName: "Riverbed", icon: require("./assets/icons/riverbed.svg") },
+        { skillName: "Zabbix", icon: require("./assets/icons/zabbix.svg") },
+        { skillName: "SolarWinds", icon: require("./assets/icons/solarwinds.svg") },
+        { skillName: "ITIL", icon: require("./assets/icons/itil.svg") }
+      ],
+
+      display: true
+    };
 
 // Education Section
 
