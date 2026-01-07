@@ -25,8 +25,8 @@ const greeting = {
   subTitle: emoji(
     "Global Network Transformation Leader (20+ Years) | SD-WAN & Data Center Architecture | Telecom Infrastructure Resilience & Secure Hybrid Network Design Architect."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1YoYjP6svXB5eysCsyqZA9EPyjRmreWXt/view?usp=share_link", // Set to empty to hide the button
+  resumeLink: "/files/Soumya_Bogarapu_Resume.pdf",
+  awardsLink: "/files/Soumya_Bogarapu_Awards.pdf",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
