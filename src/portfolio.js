@@ -68,15 +68,15 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
     softwareSkills: [
-        { skillName: "Cisco", icon: require("/Users/rishi/Documents/Latex Templates/soumyabogarapu.com/src/assets/icons/cisco.svg") },
-        { skillName: "Cisco ACI", icon: require("/Users/rishi/Documents/Latex Templates/soumyabogarapu.com/src/assets/icons/cisco-aci.svg") },
-        { skillName: "Versa SD-WAN", icon: require("/Users/rishi/Documents/Latex Templates/soumyabogarapu.com/src/assets/icons/versa.svg") },
-        { skillName: "F5 (LTM/GTM)", icon: require("/Users/rishi/Documents/Latex Templates/soumyabogarapu.com/src/assets/icons/f5.svg") },
-        { skillName: "Infoblox DDI", icon: require("/Users/rishi/Documents/Latex Templates/soumyabogarapu.com/src/assets/icons/infoblox.svg") },
-        { skillName: "Riverbed", icon: require("/Users/rishi/Documents/Latex Templates/soumyabogarapu.com/src/assets/icons/riverbed.svg") },
-        { skillName: "Zabbix", icon: require("/Users/rishi/Documents/Latex Templates/soumyabogarapu.com/src/assets/icons/zabbix.svg") },
-        { skillName: "SolarWinds", icon: require("/Users/rishi/Documents/Latex Templates/soumyabogarapu.com/src/assets/icons/solarwinds.svg") },
-        { skillName: "ITIL", icon: require("/Users/rishi/Documents/Latex Templates/soumyabogarapu.com/src/assets/icons/itil.svg") }
+        { skillName: "Cisco", icon: require("/icons/cisco.svg") },
+        { skillName: "Cisco ACI", icon: require("/icons/cisco-aci.svg") },
+        { skillName: "Versa SD-WAN", icon: require("/icons/versa.svg") },
+        { skillName: "F5 (LTM/GTM)", icon: require("/icons/f5.svg") },
+        { skillName: "Infoblox DDI", icon: require("/icons/infoblox.svg") },
+        { skillName: "Riverbed", icon: require("/icons/riverbed.svg") },
+        { skillName: "Zabbix", icon: require("/icons/zabbix.svg") },
+        { skillName: "SolarWinds", icon: require("/icons/solarwinds.svg") },
+        { skillName: "ITIL", icon: require("/icons/itil.svg") }
       ],
 
       display: true
