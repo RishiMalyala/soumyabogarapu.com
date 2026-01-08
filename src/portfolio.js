@@ -220,6 +220,61 @@ const workExperiences = {
   ]
 };
 
+
+// Some big projects you have worked on
+
+const bigProjects = {
+  title: "Major Projects",
+  subtitle:
+    "Selected large-scale transformation and infrastructure programs delivered across global telecom and enterprise environments.",
+  projects: [
+    {
+      image: require("./assets/images/LAProject.png"),
+      projectName: "Los Angeles (Alameda L90) Site Exit & Remediation",
+      projectDesc:
+        "Led and supported the successful, ahead-of-time exit of the Los Angeles (Alameda L90) site, completing a complex multi-year program and delivering an estimated ~$2.4M USD annual savings through site remediation and landlord acceptance."
+    },
+    {
+      image: require("./assets/images/PIDProject.png"),
+      projectName: "Project PID005042 – Marseille Exit (High-Critical Traffic Migration)",
+      projectDesc:
+        "Supported a highly complex, high-volume traffic migration as part of the Marseille Exit program spanning 3+ years, helping drive execution focus and technical continuity through a long-running, mission-critical transformation."
+    },
+    {
+      image: require("./assets/images/CIENA.png"),
+      projectName: "CIENA MCP Server Migration (200+ Nodes)",
+      projectDesc:
+        "Delivered the Ethernet CIENA MCP server migration for Pune and Chennai, moving 200+ CIENA nodes from the legacy CIENA One Control Server to the new CIENA MCP server with strong execution and collaboration."
+    },
+    {
+      image: require("./assets/images/SDWAN.png"),
+      projectName: "SD-WAN Enablement for India T1 Offices",
+      projectDesc:
+        "Drove SD-WAN enablement across all T1 offices in India, building momentum for broader international rollout and improving standardisation, delivery velocity, and operational readiness."
+    },
+    {
+      image: require("./assets/images/DRdrill.png"),
+      projectName: "Optimus DR Environment (Chennai) – DR Drill Execution",
+      projectDesc:
+        "Led setup and documentation of the Optimus DR environment in Chennai, ensuring standalone functionality and successfully executing DR switch-over and switch-back during the DR drill with detailed runbooks."
+    },
+    {
+      image: require("./assets/images/Keycloak.png"),
+      projectName: "Keycloak High Availability via Separate Domain + GSLB",
+      projectDesc:
+        "Enabled Keycloak to operate under a separate domain and integrated it with GSLB to deliver high availability across two locations (Pune and Chennai), reducing downtime risk for dependent applications."
+    },
+    {
+      image: require("./assets/images/TCLnewoffice.png"),
+      projectName: "TCL Chennai New Office Network Delivery (RMZ)",
+      projectDesc:
+        "Coordinated cross-functional delivery for the TCL New Office project in RMZ Chennai—driving vendor alignment, stakeholder coordination, and internal execution under rigid timelines to support a best-in-class office build."
+    }
+  ],
+  display: true
+};
+
+
 // Achievement Section
 // Include certificates, talks etc
 
