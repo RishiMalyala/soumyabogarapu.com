@@ -138,7 +138,22 @@ const techStack = {
 const workExperiences = {
   display: true,
   experience: [
-    {
+      {
+        role: "Deputy General Manager – Global Network Architecture & Transformation",
+        company: "Tata Communications Ltd",
+        companylogo: require("./assets/images/tataLogo.png"),
+        date: "April 2025 – Present | Chennai, India",
+        desc:
+          "Provides executive leadership for global network architecture, transformation strategy, and large-scale service delivery across Tata Communications’ enterprise and carrier-grade infrastructure portfolio.",
+        descBullets: [
+          "Leads and mentors a multidisciplinary team of 27 senior network architects, engineers, and operations leads across WAN, SD-WAN, data centre, and security domains",
+          "Owns end-to-end architectural governance for global network modernisation programs, including SD-WAN, hybrid cloud interconnect, and multi-region data centre fabrics",
+          "Drives technical strategy, standards, and design assurance for carrier-grade MPLS, BGP, VXLAN, IPSec, and zero-trust network architectures",
+          "Partners with executive stakeholders to align network transformation roadmaps with business growth, resilience, security, and cost-optimisation objectives",
+          "Oversees operational excellence initiatives, improving network availability, scalability, and incident response across mission-critical enterprise environments"
+        ]
+      },
+      {
       role: "Senior Manager – Global Network Architecture & Service Delivery",
       company: "Tata Communications Ltd",
       companylogo: require("./assets/images/tataLogo.png"), // add this logo file
@@ -193,7 +208,7 @@ const workExperiences = {
     {
       role: "Graduate Trainee Engineer / Test Engineer",
       company: "<<Same company as per CV>>",
-      companylogo: require("./assets/images/companyLogo.png"), // or remove logo line
+      companylogo: require("./assets/images/cmcLogo.png"), // or remove logo line
       date: "1997 – 2004 | India",
       desc:
         "Early-career engineering and testing roles supporting telecom/network environments.",
