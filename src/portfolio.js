@@ -207,14 +207,14 @@ const workExperiences = {
     },
     {
       role: "Graduate Trainee Engineer / Test Engineer",
-      company: "<<Same company as per CV>>",
+      company: "CMC Ltd",
       companylogo: require("./assets/images/cmcLogo.png"), // or remove logo line
       date: "1997 – 2004 | India",
       desc:
         "Early-career engineering and testing roles supporting telecom/network environments.",
       descBullets: [
-        "Replace these bullets with what you want highlighted from 1997–2004 (2–3 strong points is enough)",
-        "Keep it outcome-focused (uptime, rollout support, test cycles, customer environments, etc.)"
+        "Graduate Training and probationary period at CMC Ltd",
+        "Specialized training involving Government of India's telecommunication assets and roll-out deployement"
       ]
     }
   ]
