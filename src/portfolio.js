@@ -336,6 +336,11 @@ const achievementSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
+const openSource = {
+  display: false,
+  showGithubProfile: "false"
+};
+
 // Blogs Section
 
 const blogSection = {
