@@ -134,76 +134,75 @@ const techStack = {
 
 // Work experience section
 
+// Work experience section
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Senior Manager – Global Network Architecture & Service Delivery",
+      company: "Tata Communications Ltd",
+      companylogo: require("./assets/images/tataLogo.png"), // add this logo file
+      date: "2016 – Present | Chennai, India",
+      desc:
+        "Leads enterprise-wide network transformation and operational governance across multi-region data centres and distributed WAN environments; manages a 30+ person global engineering team.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Directed multi-phase SD-WAN rollout across 200+ sites; improved latency ~35% and enabled secure hybrid connectivity",
+        "Led data-centre fabric uplift to Cisco ACI spine–leaf and strengthened segmentation through policy-based controls",
+        "Improved resilience via proactive monitoring & incident playbooks (Zabbix/NIMSOFT/Riverbed); reduced MTTR ~28%"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Manager – Network Engineering & Service Transition",
+      company: "Tata Communications Ltd",
+      companylogo: require("./assets/images/tataLogo.png"),
+      date: "2011 – 2016 | Chennai, India",
+      desc:
+        "Owned delivery of large-scale network upgrade programs across MPLS WANs, data centres, and enterprise communication environments.",
+      descBullets: [
+        "Designed and implemented multi-region WAN topologies for global enterprise clients",
+        "Supported early hybrid-cloud routing frameworks to improve cross-site performance and reliability",
+        "Acted as L3 escalation lead during critical incidents affecting global service clusters"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Assistant Systems Technician (AST)",
+      company: "Tata Consultancy Services",
+      companylogo: require("./assets/images/tcsLogo.png"), // add this logo file
+      date: "2007 – 2010 | New Jersey, USA",
+      desc:
+        "Supported high-availability enterprise WAN and data-centre environments; coordinated with global teams on cutovers, acceptance testing, and operational readiness.",
+      descBullets: [
+        "Seconded onsite to U.S. operations under intra-company transfer (L1) for coordination and knowledge transfer",
+        "Supported Cisco WLC deployments, AP provisioning, RF tuning and site survey review",
+        "Handled L2/L3 escalations for WAN performance, QoS prioritisation and failover scenarios"
+      ]
+    },
+    {
+      role: "Technical Support Executive",
+      company: "CMC Ltd",
+      companylogo: require("./assets/images/cmcLogo.png"), // add this logo file
+      date: "2004 – 2007 | Hyderabad, India",
+      desc:
+        "Supported enterprise and public-sector network environments in an SLA-driven managed services model.",
+      descBullets: [
+        "Supported LAN/WAN deployments: switch configs, VLAN segmentation, routing basics, redundancy testing",
+        "Assisted Wi-Fi rollout: AP provisioning, SSID configuration, RF validation and performance tuning",
+        "Performed routine firewall policy/VPN changes and remote access troubleshooting"
+      ]
+    },
+    {
+      role: "Graduate Trainee Engineer / Test Engineer",
+      company: "<<Same company as per CV>>",
+      companylogo: require("./assets/images/companyLogo.png"), // or remove logo line
+      date: "1997 – 2004 | India",
+      desc:
+        "Early-career engineering and testing roles supporting telecom/network environments.",
+      descBullets: [
+        "Replace these bullets with what you want highlighted from 1997–2004 (2–3 strong points is enough)",
+        "Keep it outcome-focused (uptime, rollout support, test cycles, customer environments, etc.)"
+      ]
     }
   ]
-};
-
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
-
-const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
-};
-
-// Some big projects you have worked on
-
-const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-  projects: [
-    {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
