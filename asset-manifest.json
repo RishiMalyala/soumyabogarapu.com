@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.24942886.css",
-    "main.js": "/static/js/main.9853dd47.js",
+    "main.js": "/static/js/main.b87891a0.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.f10b9840.chunk.js": "/static/js/64.f10b9840.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.0718bb6a.chunk.js": "/static/js/769.0718bb6a.chunk.js",
+    "static/media/family.png": "/static/media/family.f3cb659478964e89755f.png",
     "static/media/TCLnewoffice.png": "/static/media/TCLnewoffice.a253ec98cfc048c8d731.png",
     "static/media/tataLogo.png": "/static/media/tataLogo.f287024cb2d2d74a954d.png",
     "static/media/LAProject.png": "/static/media/LAProject.6d7bb5a23cac57066421.png",
@@ -30,7 +31,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.24942886.css.map": "/static/css/main.24942886.css.map",
-    "main.9853dd47.js.map": "/static/js/main.9853dd47.js.map",
+    "main.b87891a0.js.map": "/static/js/main.b87891a0.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.f10b9840.chunk.js.map": "/static/js/64.f10b9840.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
@@ -38,6 +39,6 @@
   },
   "entrypoints": [
     "static/css/main.24942886.css",
-    "static/js/main.9853dd47.js"
+    "static/js/main.b87891a0.js"
   ]
 }
