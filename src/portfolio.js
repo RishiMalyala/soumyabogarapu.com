@@ -341,33 +341,28 @@ const openSource = {
 
 // Family Section (reusing Blog section UI)
 
-const blogSection = {
+// Family Section
+
+const familySection = {
+  display: true,
   title: "Family",
   subtitle:
     "Beyond work, I’m grounded by family — the people who keep me humble, motivated, and grateful.",
-  displayMediumBlogs: "false",
-  blogs: [
-    {
-      // IMPORTANT: leave url as "#" so it doesn't take you anywhere
-      url: "#",
-      title: "My family",
-        description: `
-        Aside from my very busy and demanding career, I am deeply supported by my family — the people who keep me humble, motivated, and grateful every single day. My husband owns and runs an IT consultancy in the United States, and together we have built a home grounded in ambition, resilience, and strong values.
 
-        I am a proud mother of four remarkable boys. My eldest is an Electrical Engineer and researcher at UNSW Sydney. My second son is also an Electrical Engineer, a graduate of IIT Madras after cracking the IIT-JEE — arguably India’s most competitive engineering entrance exam — and previously worked as a Software Development Engineer at Microsoft. Today, he leads his own AI-FinTech startup in Bangalore.
+  description: `
+Aside from my very busy and demanding career, I am deeply supported by my family — the people who keep me humble, motivated, and grateful every single day. My husband owns and runs an IT consultancy in the United States, and together we have built a home grounded in ambition, resilience, and strong values.
 
-        My younger twin boys are just as driven and talented, currently on track to become an engineer and a doctor.
+I am a proud mother of four remarkable boys. My eldest is an Electrical Engineer and researcher at UNSW Sydney. My second son is also an Electrical Engineer, a graduate of IIT Madras after cracking the IIT-JEE — arguably India’s most competitive engineering entrance exam — and previously worked as a Software Development Engineer at Microsoft. Today, he leads his own AI-FinTech startup in Bangalore.
 
-        And of course, I am also a proud mum to two cats — Kiki and Maggi — who firmly believe they run the household and keep everyone (including me) in line.
+My younger twin boys are just as driven and talented, currently on track to become an engineer and a doctor.
 
-        Above all, aside from my high-powered career, I am most proud of my family and the values we share — integrity, discipline, curiosity, and the courage to dream big.
-              `,
-      image: require("./assets/images/family.png")
-    }
-  ],
-  display: true
+And of course, I am also a proud mum to two cats — Kiki and Maggi — who firmly believe they run the household and keep everyone (including me) in line.
+
+Above all, aside from my high-powered career, I am most proud of my family and the values we share — integrity, discipline, curiosity, and the courage to dream big.
+  `,
+
+  image: require("./assets/images/family.jpg")
 };
-
 // Talks Sections
 
 const talkSection = {
@@ -437,7 +432,7 @@ export {
   openSource,
   bigProjects,
   achievementSection,
-  blogSection,
+  familySection,
   talkSection,
   podcastSection,
   contactInfo,
