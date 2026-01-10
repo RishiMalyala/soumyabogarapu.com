@@ -362,7 +362,7 @@ const blogSection = {
 
         Above all, aside from my high-powered career, I am most proud of my family and the values we share — integrity, discipline, curiosity, and the courage to dream big.
               `,
-      image: require("./assets/images/family.jpg")
+      image: require("./assets/images/family.png")
     }
   ],
   display: true
