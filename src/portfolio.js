@@ -365,6 +365,8 @@ Above all, aside from my high-powered career, I am most proud of my family and t
 };
 // Talks Sections
 
+const blogSection = { display: false, blogs: [], displayMediumBlogs: "false" };
+
 const talkSection = {
   title: "TALKS",
   subtitle: emoji(
@@ -433,6 +435,7 @@ export {
   bigProjects,
   achievementSection,
   familySection,
+  blogSection,
   talkSection,
   podcastSection,
   contactInfo,
