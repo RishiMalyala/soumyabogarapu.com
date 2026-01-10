@@ -274,68 +274,66 @@ const bigProjects = {
   display: true
 };
 
-
 // Achievement Section
-// Include certificates, talks etc
+// Include certifications, recognitions and leadership accomplishments
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Achievements & Certifications 🏆"),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Professional certifications, leadership recognition, and major career accomplishments across global telecom and enterprise networks.",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Cisco Certified Network Professional (CCNP) – Data Center",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
+        "Advanced professional certification validating deep expertise in data center networking, spine–leaf architectures, virtualization, automation, and secure infrastructure design.",
+      image: require("./assets/images/ciscoLogo.png"),
+      imageAlt: "Cisco Logo",
+      footerLink: []
     },
     {
-      title: "Google Assistant Action",
+      title: "Cisco Enterprise Infrastructure Specialist",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
+        "Specialist certification covering enterprise routing, switching, SD-WAN, wireless, and automation across large-scale production networks.",
+      image: require("./assets/images/ciscoLogo.png"),
+      imageAlt: "Cisco Logo",
+      footerLink: []
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
+      title: "Versa SD-WAN Certified Professional",
+      subtitle:
+        "Certified expert in Versa SD-WAN architecture, deployment, security integration, and large-scale enterprise rollout programs across multi-region WAN environments.",
+      image: require("./assets/images/versaLogo.png"),
+      imageAlt: "Versa Networks Logo",
+      footerLink: []
+    },
+    {
+      title: "ITIL V3 & V4 Certified",
+      subtitle:
+        "Certified in IT Service Management frameworks, driving operational excellence, service governance, incident management, and enterprise-scale delivery assurance.",
+      image: require("./assets/images/itilLogo.png"),
+      imageAlt: "ITIL Logo",
+      footerLink: []
+    },
+    {
+      title: "Global Network Transformation Leader (20+ Years)",
+      subtitle:
+        "Recognised for leading multi-billion-dollar global telecom and enterprise network modernisation programs, delivering high-availability, secure, and scalable digital infrastructure across continents.",
+      image: require("./assets/images/tataLogo.png"),
+      imageAlt: "Tata Communications Logo",
+      footerLink: []
+    },
+    {
+      title: "Executive Leadership & Global Delivery Excellence",
+      subtitle:
+        "Built and led global engineering organisations of 30+ senior architects and engineers, driving network resilience, cloud integration, SD-WAN adoption, and mission-critical service delivery for Fortune 500 enterprises.",
+      image: require("./assets/images/tataLogo.png"),
+      imageAlt: "Global Network Icon",
+      footerLink: []
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
-
 const openSource = {
   display: false,
   showGithubProfile: "false"
