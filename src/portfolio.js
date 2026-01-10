@@ -339,28 +339,33 @@ const openSource = {
   showGithubProfile: "false"
 };
 
-// Blogs Section
+// Family Section (reusing Blog section UI)
 
 const blogSection = {
-  title: "Blogs",
+  title: "Family",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+    "Beyond work, I’m grounded by family — the people who keep me humble, motivated, and grateful.",
+  displayMediumBlogs: "false",
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+      // IMPORTANT: leave url as "#" so it doesn't take you anywhere
+      url: "#",
+      title: "My family",
+        description: `
+        Aside from my very busy and demanding career, I am deeply supported by my family — the people who keep me humble, motivated, and grateful every single day. My husband owns and runs an IT consultancy in the United States, and together we have built a home grounded in ambition, resilience, and strong values.
+
+        I am a proud mother of four remarkable boys. My eldest is an Electrical Engineer and researcher at UNSW Sydney. My second son is also an Electrical Engineer, a graduate of IIT Madras after cracking the IIT-JEE — arguably India’s most competitive engineering entrance exam — and previously worked as a Software Development Engineer at Microsoft. Today, he leads his own AI-FinTech startup in Bangalore.
+
+        My younger twin boys are just as driven and talented, currently on track to become an engineer and a doctor.
+
+        And of course, I am also a proud mum to two cats — Kiki and Maggi — who firmly believe they run the household and keep everyone (including me) in line.
+
+        Above all, aside from my high-powered career, I am most proud of my family and the values we share — integrity, discipline, curiosity, and the courage to dream big.
+              `,
+      image: require("./assets/images/family.jpg")
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Talks Sections
@@ -379,7 +384,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -392,7 +397,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
